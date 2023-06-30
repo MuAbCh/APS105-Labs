@@ -1,3 +1,22 @@
+/*
+This lab is in four parts, each adding up to make a game. The game plays as follows: 
+  
+  This 2 playes game starts with 20 boxes, where each box may have a candy, bomb or nothing. In each round of the game,
+  each player is asked to pick 5 boxes. It is unknown to the players what is inside the boxes,
+  or which boxes the other player picked.
+  
+  Score - If a player picks a box with a bomb, he/she loses 10 points. If a player selects a
+  box with candy, they will earn 10 points if no other player has picked it, or receive 5 points
+  if the candy happens to be already chosen by another player, i.e. the 10 points will be
+  shared amongst the two players. The player gains no points if they pick an empty box.
+  This applies to all the boxes the player choose.
+  
+  Repetition - In the next round, the boxes are reset with different locations of candies and
+  bombs, and again the players can pick 5 boxes. The game ends when the score difference
+  between the players is more than 50 points. The player with the highest score wins the
+  game
+*/
+
 //Populating the Boxes and Validating the Player's Choices
 
 #include <math.h>
